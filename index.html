@@ -4,42 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
-            background-color: #111;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
             color: white;
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             text-align: center;
-            padding-top: 100px;
+            padding: 50px 20px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
         }
         a {
             display: inline-block;
-            margin: 15px;
             padding: 15px 30px;
             background-color: #25D366;
             color: white;
             text-decoration: none;
             border-radius: 8px;
-            font-weight: bold;
-            transition: 0.3s;
+            font-weight: 600;
+            transition: background-color 0.3s, transform 0.2s;
         }
         a:hover {
             background-color: #1c9953;
+            transform: scale(1.05);
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #aaa;
         }
     </style>
 </head>
 <body>
 
-    <h1>Dhanush</h1>
-    <p>Hitme up on 👇:</p>
+    <!-- Optional: Your Profile Picture -->
+    <img src="https://via.placeholder.com/150" alt="Your Profile Picture">
 
-    <a href="https://wa.me/+14376000640" target="_blank">WhatsApp</a>
-    <a href="https://www.facebook.com/dhanushs11" target="_blank">Facebook</a>
-    <a href="https://www.instagram.com/_dhanushss" target="_blank">Instagram</a>
-    <a href="https://steamcommunity.com/id/76561198977821419" target="_blank">Steam</a>
-    <a href="dhanscrp@protonmail.com" target="_blank">Email Me</a>
+    <h1>Hello, I’m [Your Name]</h1>
+    <p>Contact me on any of my platforms:</p>
 
-    <p style="margin-top: 50px; font-size: 0.9em;">cya there.!!</p>
+    <div class="button-container">
+        <a href="https://wa.me/+14376000640" target="_blank">WhatsApp</a>
+        <a href="https://www.facebook.com/dhanushs11" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/_dhanushss" target="_blank">Instagram</a>
+        <a href="https://steamcommunity.com/id/76561198977821419" target="_blank">Steam</a>
+        <a href="dhanscrp@protonmail.com" target="_blank">Email Me</a>
+    </div>
+
+    <footer>Made by [✌️] © 2024</footer>
 
 </body>
 </html>
